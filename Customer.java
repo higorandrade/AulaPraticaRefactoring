@@ -42,10 +42,10 @@ public class Customer {
   }
   
   public String statement() {
-    return new TextStatement().value(this);
+    return new TextStatement().TextValue(this);
   }
 
   public String htmlStatement() {
-    return new HtmlStatement().value(this);
+    return new HtmlStatement().HtmlValue(this);
   }
 }
